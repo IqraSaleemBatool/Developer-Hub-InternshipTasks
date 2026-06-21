@@ -5,7 +5,7 @@
 
 This project focuses on forecasting household energy consumption using historical time-series data. The goal is to compare multiple models and identify the best-performing approach.
 
----
+
 
 ## Objective
 
@@ -14,7 +14,7 @@ This project focuses on forecasting household energy consumption using historica
 * Build forecasting models
 * Compare performance using MAE and RMSE
 
----
+
 
 ## Dataset
 
@@ -26,14 +26,14 @@ Contains:
 * Voltage, Intensity
 * Sub-metering values
 
----
 
-## Tools & Libraries Used
+
+## Tools  Libraries Used
 
 Python, Pandas, NumPy, Matplotlib
 Statsmodels (ARIMA), Prophet, XGBoost, Scikit-learn
 
----
+
 
 ## Workflow
 
@@ -43,7 +43,7 @@ Statsmodels (ARIMA), Prophet, XGBoost, Scikit-learn
 * Model training (ARIMA, Prophet, XGBoost)
 * Evaluation using MAE & RMSE
 
----
+
 
 ##  Results
 
@@ -53,10 +53,10 @@ Statsmodels (ARIMA), Prophet, XGBoost, Scikit-learn
 | ARIMA   | 0.8933 | 1.1131 |
 | XGBoost | 0.8971 | 1.2351 |
 
----
+
 
 ##  Conclusion
 
 Prophet performed best with the lowest error, making it the most suitable model for this dataset.
 
----
+
